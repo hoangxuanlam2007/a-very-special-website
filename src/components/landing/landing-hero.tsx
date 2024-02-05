@@ -42,16 +42,14 @@ export const LandingHero = ({}: LandingHeroProps) => {
           <TypewriterLandingComponent />
         </div>
       </div>
-      <div className="mt-10 space-y-5 text-center ">
-        <Link href={""}>
-             <Button
-                onClick={() => scrollToElementWithId("landing-0")}
-                variant="outline"
-                className="animate-[fade-in-up_1.5s_ease-in-out] rounded-sm border-none bg-primary tracking-wider text-white transition-colors hover:bg-[#4a2b7c] hover:text-white px-5 py-5"
-              >
-                Ấn vào đây nè
-            </Button>
-        </Link>
+      <div className="mt-10 space-y-5 text-center">
+        <Button
+            onClick={() => scrollToElementWithId("landing-0")}
+            variant="outline"
+            className="animate-[fade-in-up_1.5s_ease-in-out] rounded-sm border-none bg-primary tracking-wider text-white transition-colors hover:bg-[#4a2b7c] hover:text-white px-5 py-5"
+          >
+            Ấn vào đây nè
+        </Button>
         <ChevronDown className="mt-chevron m-auto animate-[fade-in-up_1.5s_ease-in-out,bounce_infinite_1s] text-white" />
       </div>
     </div>
