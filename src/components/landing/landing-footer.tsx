@@ -16,7 +16,7 @@ export const LandingFooter = () => {
           </h5>
         </div>
         <Separator className="bg-pink-900 lg:hidden" />
-        <p>Copyright © {new Date().getFullYear()} hoangxuanlam2007</p>
+        <p>Copyright © {new Date().getFullYear()} <a className="hover:text-neutral-300 transition ease-in-out" href="https://github.com/hoangxuanlam2007" target="_blank" rel="norreferer">hoangxuanlam2007</a></p>
       </div>
     </>
   );
