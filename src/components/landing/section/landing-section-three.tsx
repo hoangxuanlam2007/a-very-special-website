@@ -1,5 +1,5 @@
 import React from "react";
-import { RemoveBgLanding } from "./removebg-landing";
+import { RemoveBgLanding } from "../content-landing/removebg-landing";
 import { DM_Serif_Display } from "next/font/google";
 import { cn } from "@/lib/utils";
 

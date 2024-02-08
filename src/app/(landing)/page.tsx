@@ -1,9 +1,11 @@
-import { LandingHero } from "@/components/landing/landing-hero";
+import { LandingHero } from "@/components/landing/section/landing-hero";
 import { LandingNav } from "@/components/landing/landing-nav";
-import { LandingSection } from "@/components/landing/landing-section";
-import { LandingSectionSecond } from "@/components/landing/landing-section-second";
-import { LandingSectionThree } from "@/components/landing/landing-section-three";
-import { LandingFooter } from "@/components/landing/landing-footer";
+import { LandingSection } from "@/components/landing/section/landing-section";
+import { LandingSectionSecond } from "@/components/landing/section/landing-section-second";
+import { LandingSectionThree } from "@/components/landing/section/landing-section-three";
+import { LandingFooter } from "@/components/landing/section/footer-section";
+import { FirstLanding } from "@/components/landing/content-landing/first-landing";
+import { ParagraphDivider } from "@/components/ui/separator";
 
 export default async function Landing() {
 
@@ -14,10 +16,17 @@ export default async function Landing() {
           <LandingNav />
           <LandingHero />
         </section>
-        <section id="landing-0" className="mx-auto h-[100dvh] w-full bg-white">
+        <section id="landing-0" className="mx-auto h-full w-full bg-white">
           <LandingSection />
         </section>
-        <section className="mx-auto h-[100dvh] w-full bg-white">
+        {/* Ke hoach dau tien sau 2 nam... */}
+        <section id="landing-1" className="mx-auto w-full bg-white landing-section m-auto mt-0">
+          <FirstLanding />
+        </section>
+        <section className="mx-auto w-full">
+          <ParagraphDivider />
+        </section>
+        <section id="landing-2" className="mx-auto w-full bg-white landing-section m-auto mt-0">
           <LandingSectionSecond />
         </section>
         <div className="h-60 bg-white lg:hidden"></div>

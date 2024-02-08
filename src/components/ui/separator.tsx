@@ -1,9 +1,12 @@
 "use client"
 
-import * as React from "react"
-import * as SeparatorPrimitive from "@radix-ui/react-separator"
+import * as React from "react";
+import * as SeparatorPrimitive from "@radix-ui/react-separator";
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
+
+import "./ui.css";
+import { Fade, Slide } from "react-swift-reveal";
 
 const Separator = React.forwardRef<
   React.ElementRef<typeof SeparatorPrimitive.Root>,
@@ -28,4 +31,20 @@ const Separator = React.forwardRef<
 )
 Separator.displayName = SeparatorPrimitive.Root.displayName
 
-export { Separator }
+const SeparatorDivider = () => {
+  return (
+    <div className="divider div-transparent div-dot px-10 mx-auto mt-8 mb-12 lg:mt-[64px]"></div>
+  );
+};
+
+const ParagraphDivider = () => {
+  return (
+    <Slide top>
+      <Fade delay={450}>
+        <div className="paragraph-divider mx-auto px-10 mt-12 mb-6"></div>
+      </Fade>
+    </Slide>
+  );
+};
+
+export { Separator, SeparatorDivider, ParagraphDivider }

@@ -1,8 +1,8 @@
 import React from "react";
-import { Separator } from "../ui/separator";
+import { Separator } from "../../ui/separator";
 import Link from "next/link";
 
-import { GradientHeart } from "../custom-icons";
+import { GradientHeart } from "../../custom-icons";
 
 export const LandingFooter = () => {
   return (

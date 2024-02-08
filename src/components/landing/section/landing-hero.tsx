@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { cn } from "@/lib/utils";
 import { Dancing_Script, Inter } from "next/font/google";
-import { TypewriterLandingComponent } from "./typewrite-landing";
+import { TypewriterLandingComponent } from "../content-landing/typewrite-landing";
 import { Button } from "@/components/ui/button";
 import { User } from "next-auth";
 import { ChevronDown } from "lucide-react";

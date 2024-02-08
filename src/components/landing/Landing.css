@@ -1,6 +1,42 @@
+.header-col, .main-col {
+    position: relative;
+    padding: 0 20px;
+    float: left;
+    line-height: 24px;
+}
+
+.header-col>h1 {
+    text-transform: uppercase;
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 9px;
+    margin-bottom: 48px;
+}
+
+.main-content>h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.info {
+    font-size: 16px;
+}
+
 @media (max-width: 480px) {
     .showlove {
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .info {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-col {
+        margin-bottom: none;
     }
 }
