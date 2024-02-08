@@ -66,20 +66,6 @@ html,body,:root{
   }
 }
 
-img {
-  cursor: pointer;
-  transition: all .25s ease;
-}
-
-img:hover {
-  transform: scale(1.05);
-  filter: brightness(0.75);
-}
-
-span {
-  list-style-type: "- ";
-}
-
 .Typewriter__cursor {
   display: none;
 }

@@ -27,6 +27,28 @@
     font-size: 16px;
 }
 
+.main-content-img {
+    cursor: pointer;
+    transition: all .25s ease;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+  
+.main-content-img:hover {
+    transform: scale(1.05);
+    filter: brightness(0.75);
+}
+
+.main-content-paragraph {
+    list-style-type: "- ";
+}
+
+.click-to-see:hover + .main-content-img {
+    transform: scale(1.05);
+    filter: brightness(0.75);
+}
+
 @media (max-width: 480px) {
     .showlove {
         padding-left: 10px;

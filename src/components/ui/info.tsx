@@ -26,4 +26,12 @@ const Info: React.FC<InfoProps> = ({ date, time }) => {
     );
 };
 
-export { Info }
+const ClickToSee = () => {
+    return(
+        <p className="text-center text-sm italic">
+            • Nhấn vào ảnh để xem •
+        </p>
+    );
+};
+
+export { Info, ClickToSee }
