@@ -41,7 +41,7 @@ const ParagraphDivider = () => {
   return (
     <Slide top duration={1000}>
       <Fade delay={450}>
-        <div className="paragraph-divider mx-auto px-10 my-2"></div>
+        <div className="paragraph-divider mx-auto px-10 mt-8 mb-2"></div>
       </Fade>
     </Slide>
   );

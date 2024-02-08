@@ -23,7 +23,6 @@ export default async function Landing() {
         <section id="landing-1" className="mx-auto w-full bg-white landing-section m-auto mt-0">
           <FirstLanding />
         </section>
-
         <section id="landing-2" className="mx-auto w-full bg-white landing-section m-auto mt-0">
           <LandingSectionSecond />
         </section>

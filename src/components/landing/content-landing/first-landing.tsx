@@ -4,10 +4,11 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { Open_Sans } from "next/font/google";
 import { cn } from "@/lib/utils";
-import { Info, ClickToSee } from "@/components/ui/info";
+import { Info, ClickToSee, ChatLookup } from "@/components/ui/info";
 import { Slide, Fade } from "react-swift-reveal";
 import ImageViewer from "react-simple-image-viewer";
 import { SlideUpReveal, SlideRightReveal } from "@/components/ui/animation";
+import { ParagraphDivider } from "@/components/ui/separator";
 
 const font = Open_Sans({ weight: "700", subsets: ["vietnamese"] });
 
@@ -96,7 +97,7 @@ export const FirstLanding = () => {
 
                   <ClickToSee />
                   <Fade>
-                    <div className="grid grid-cols-2 mb-5 mt-2 gap-x-3">
+                    <div className="grid grid-cols-2 mb-5 mt-5 gap-x-3">
                       <Image 
                         src="/leopard.png"
                         width={721}
@@ -123,6 +124,8 @@ export const FirstLanding = () => {
                     </div>
                   </Fade>
 
+                  <ChatLookup location="/Deleted-User-8c35ac28.html" />
+                  <ParagraphDivider />
                 </div>
           </div>
         </div>

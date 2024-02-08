@@ -28,10 +28,18 @@ const Info: React.FC<InfoProps> = ({ date, time }) => {
 
 const ClickToSee = () => {
     return(
-        <p className="text-center text-sm italic">
+        <p className="text-center italic">
             • Nhấn vào ảnh để xem •
         </p>
     );
 };
 
-export { Info, ClickToSee }
+const ChatLookup = ({ location }: { location: string }) => {
+    return (
+        <div className="max-w-fit text-amber-500 mx-auto text-base underline font-bold cursor-pointer" onClick={() => window.open(location, "_blank")}>
+        Xem đoạn chat tại đây
+        </div>
+    );
+};
+
+export { Info, ClickToSee, ChatLookup }
