@@ -33,8 +33,8 @@
 .paragraph-divider {
     position: relative;
     left: 50%;
-    height: 200px;
+    height: 132px;
     border-left: 1px solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient(to bottom, rgba(48, 49, 51) 80%, transparent);
+    border-image-source: linear-gradient(to bottom, rgba(48, 49, 51), transparent);
 }

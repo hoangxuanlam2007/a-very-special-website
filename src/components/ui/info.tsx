@@ -9,7 +9,7 @@ interface InfoProps {
 
 const Info: React.FC<InfoProps> = ({ date, time }) => {
     return(
-        <p className="info mt-1.5">
+        <p className="info mt-1">
             <span className="font-semibold info-author">Xuân Lâm</span>
             <span className="info-nickname">
                 &nbsp;@chimmyw
