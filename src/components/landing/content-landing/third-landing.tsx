@@ -36,7 +36,7 @@ export const ThirdLanding = () => {
         <SlideRightReveal>
             <div className="header-col max-w-fit">
               <h1>
-                <span>Tháng 10/2021</span>
+                <span>Tháng 11/2021</span>
               </h1>
             </div>
         </SlideRightReveal>
@@ -56,49 +56,10 @@ export const ThirdLanding = () => {
                 <div className="mt-3">
                   <SlideUpReveal>
                     <span className="main-content-paragraph">
-                      <li>Hồi ấy tớ nghiện cậu đến nỗi toàn bộ giờ học online cũng chỉ ghim mỗi camera của cậu lên để ngắm.</li>
-                      <li>Ngỏ lời muốn giúp cậu chỉnh sửa server Discord để tạo ấn tượng tốt với cậu, khiến cậu không còn suy nghĩ xấu về tớ, mong phần nào để lại trong cậu một điều gì đấy đặc biệt về tớ.</li>
+                      <li>Kế hoạch đã và đang được thực hiện, tớ đã stream CS:GO với kết quả mong đợi là cậu sẽ xem, sẽ chú ý tới tên con dao mà tớ đã đặt trong game rồi từ đó hiểu được phần nào tình cảm của tớ.</li>
+                      <li>Vậy mà không như dự đoán, Đăng lại là người xem trước và đã nói cho cậu biết, nhưng không sao cả…</li>
                     </span>
                   </SlideUpReveal>
-
-                  <Fade>
-                    <ClickToSee />
-                    <div className="grid grid-cols-2 grid-row-2 my-5 gap-3">
-                      <Image 
-                        src="/1.png"
-                        width={1827/2}
-                        height={1080/2}
-                        alt="first_knife"
-                        onClick={() => {
-                          setIsViewerOpen(true);
-                          setCurrentImage(0); // Set the index of the clicked image
-                        }}
-                        className="main-content-img col-span-2"
-                      />
-                      <Image 
-                        src="/2.png"
-                        width={247}
-                        height={921}
-                        alt="second_knife"
-                        onClick={() => {
-                          setIsViewerOpen(true);
-                          setCurrentImage(1); // Set the index of the clicked image
-                        }}
-                        className="main-content-img max-h-[480px]"
-                      />
-                      <Image 
-                        src="/3.png"
-                        width={239}
-                        height={785}
-                        alt="second_knife"
-                        onClick={() => {
-                          setIsViewerOpen(true);
-                          setCurrentImage(1); // Set the index of the clicked image
-                        }}
-                        className="main-content-img max-h-[480px]"
-                      />
-                    </div>
-                  </Fade>
 
                   <ParagraphDivider />
                 </div>

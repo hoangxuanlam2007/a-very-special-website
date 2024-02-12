@@ -31,7 +31,7 @@ export default async function Landing() {
           <LandingSectionThree />
         </section>
         <div className="h-64 bg-white md:h-96 lg:hidden"></div>
-        <section className="mx-auto mt-6 max-w-screen-xl">
+        <section className="mx-auto mt-6 max-w-[100dvw]">
           <LandingFooter />
         </section>
       </main>
