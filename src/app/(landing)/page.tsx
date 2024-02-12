@@ -7,6 +7,8 @@ import { LandingSectionThree } from "@/components/landing/section/landing-sectio
 import { LandingSectionFour } from "@/components/landing/section/landing-section-four";
 import { LandingSectionFive } from "@/components/landing/section/landing-section-five";
 import { LandingSectionSix } from "@/components/landing/section/landing-section-six";
+import { LandingSectionSeven } from "@/components/landing/section/landing-section-seven";
+import { LastLanding } from "@/components/landing/section/last-section";
 import { LandingFooter } from "@/components/landing/section/footer-section";
 
 export default async function Landing() {
@@ -39,6 +41,12 @@ export default async function Landing() {
         </section>
         <section id="landing-6" className="mx-auto w-full bg-white landing-section m-auto mt-0">
           <LandingSectionSix />
+        </section>
+        <section id="landing-7" className="mx-auto w-full bg-white landing-section m-auto mt-0">
+          <LandingSectionSeven />
+        </section>
+        <section id="landing-last" className="mx-auto h-full w-full bg-white">
+          <LastLanding />
         </section>
 
         <div className="h-64 bg-white md:h-96 lg:hidden"></div>
