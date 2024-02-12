@@ -49,9 +49,9 @@ const ChatLookup = ({ location, children }: { location: string, children: React.
                 <Button
                     onClick={() => {window.open(location, "_blank")}}
                     variant={'chatlookup'}
-                    className="mb-2 rounded-sm border-none bg-primary tracking-wider text-white hover:bg-[#4a2b7c] hover:text-white p-5 mx-auto"
+                    className="mb-2 rounded-sm border-none bg-primary tracking-wider text-white hover:bg-[#4a2b7c] p-3 mx-auto"
                 >
-                    {children}
+                    <span className="text-xs">{children}</span>
                 </Button>
             </div>
         </SlideUpReveal>

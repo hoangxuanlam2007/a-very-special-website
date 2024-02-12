@@ -15,7 +15,7 @@ const font = Open_Sans({ weight: "700", subsets: ["vietnamese"] });
 export const FifthLanding = () => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
-  const images = ["/5.png", "/5a.png"]; // Add all your image paths here
+  const images = ["/5.png", "/5a.png", "/4.png"]; // Add all your image paths here
   
   return (
     <div className="grid grid-cols-4 lg:grid-cols-5 text-black max-w-lg md:max-w-3xl lg:max-w-5xl m-auto text-left">
@@ -50,7 +50,7 @@ export const FifthLanding = () => {
             </SlideUpReveal>
 
               <SlideUpReveal>
-                <Info date="06 T2, 2024" time="21:28 PM" />
+                <Info date="12 T2, 2024" time="17:03 PM" />
               </SlideUpReveal>
 
                 <div className="mt-3">
@@ -65,8 +65,8 @@ export const FifthLanding = () => {
                     <div className="grid grid-cols-2 grid-row-2 my-5 gap-3">
                       <Image 
                         src="/5.png"
-                        width={606}
-                        height={921}
+                        width={565}
+                        height={901}
                         alt="staff_chat_5"
                         onClick={() => {
                           setIsViewerOpen(true);
@@ -76,8 +76,8 @@ export const FifthLanding = () => {
                       />
                       <Image 
                         src="/5a.png"
-                        width={606}
-                        height={921}
+                        width={419}
+                        height={924}
                         alt="staff_chat_6"
                         onClick={() => {
                           setIsViewerOpen(true);
@@ -94,40 +94,29 @@ export const FifthLanding = () => {
 
                   <SlideUpReveal>
                     <span className="main-content-paragraph">
-                      <li>Sau đó tớ tạo 1 kênh chat mới, những tin nhắn vòng vo ấy cậu còn nhớ không…?</li>
+                      <li className="py-5">Sau đó tớ tạo 1 kênh chat mới, những tin nhắn vòng vo ấy cậu còn nhớ không…?</li>
                     </span>
                   </SlideUpReveal>
 
                   <Fade>
                     <ClickToSee />
-                    <div className="grid grid-cols-2 grid-row-2 my-5 gap-3">
+                    <div className="my-5 gap-x-3">
                       <Image 
-                        src="/inv_1.png"
+                        src="/4.png"
                         width={606}
                         height={921}
-                        alt="inv_1"
+                        alt="staff_darling_chat"
                         onClick={() => {
                           setIsViewerOpen(true);
-                          setCurrentImage(0); // Set the index of the clicked image
+                          setCurrentImage(2); // Set the index of the clicked image
                         }}
-                        className="main-content-img max-h-[480px]"
-                      />
-                      <Image 
-                        src="/inv_2.png"
-                        width={606}
-                        height={921}
-                        alt="inv_2"
-                        onClick={() => {
-                          setIsViewerOpen(true);
-                          setCurrentImage(0); // Set the index of the clicked image
-                        }}
-                        className="main-content-img max-h-[480px]"
+                        className="main-content-img max-h-[480px] !object-contain !w-max mx-auto"
                       />
                     </div>
                   </Fade>
 
-                  <ChatLookup location="/html/Lói-không-ngừng-staff-chat.html">
-                    Xem đoạn chat Discord tại đây
+                  <ChatLookup location="/html/Lói-không-ngừng-staff-darlingg.html">
+                    Xem toàn bộ đoạn chat &ldquo;◜STAFF◞ | ⊦-𝓭𝓪𝓻𝓵𝓲𝓷𝓰𝓰&rdquo; tại đây
                   </ChatLookup>
 
                   <ParagraphDivider />

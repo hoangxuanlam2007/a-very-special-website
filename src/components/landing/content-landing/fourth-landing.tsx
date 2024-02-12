@@ -90,8 +90,8 @@ export const FourthLanding = () => {
                     <div className="grid grid-cols-2 grid-row-2 my-5 gap-3">
                       <Image 
                         src="/inv_1.png"
-                        width={606}
-                        height={921}
+                        width={740}
+                        height={1080}
                         alt="inv_1"
                         onClick={() => {
                           setIsViewerOpen(true);
@@ -101,8 +101,8 @@ export const FourthLanding = () => {
                       />
                       <Image 
                         src="/inv_2.png"
-                        width={606}
-                        height={921}
+                        width={954}
+                        height={1080}
                         alt="inv_2"
                         onClick={() => {
                           setIsViewerOpen(true);
