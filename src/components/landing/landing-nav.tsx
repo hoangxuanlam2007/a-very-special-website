@@ -2,7 +2,6 @@ import { Courgette } from "next/font/google";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { User } from "next-auth";
 
 import { GradientHeart } from "../custom-icons";
 
@@ -10,11 +9,7 @@ import './Landing.css';
 
 const font = Courgette({ weight: "400", subsets: ["latin"] });
 
-type LandingNavProps = {
-  user?: User;
-};
-
-export const LandingNav = ({}: LandingNavProps) => {
+export const LandingNav = () => {
   return (
     <nav className="select-none w-[95%] xl:w-full m-auto flex items-center justify-between rounded-lg bg-white/10 px-4 py-2 shadow-2xl drop-shadow backdrop-blur-3xl mt-2">
       <div className="cursor-pointer">

@@ -33,22 +33,29 @@ export const MyThoughts = () => {
         />
       )}
 
-        <div className="text-4xl md:text-5xl px-[20px] font-semibold text-balance mb-6 lg:mb-2">
-          <span className="to-sky-blue-600 bg-gradient-to-b from-rose-700 to-pink-500 bg-clip-text text-transparent">
-            Và sau đấy...
-          </span>
-        </div>
+        <SlideUpReveal>
+          <div className="text-4xl md:text-5xl px-[20px] font-semibold text-balance mb-6 lg:mb-2">
+            <span className="to-sky-blue-600 bg-gradient-to-b from-rose-700 to-pink-500 bg-clip-text text-transparent">
+              Và sau đấy...
+            </span>
+          </div>
+        </SlideUpReveal>
 
         <div className="main-col mt-[-20px] lg:mt-0">
           <div className="main-content">
                 <div className="text-[20px] leading-[32px]">
                     <span className="main-content-paragraph my-thoughts-paragraph text-balance break-words text-justify">
+                    <SlideUpReveal>
                       <span className="font-semibold text-[22px] lg:text-[24px]">
                         là kỉ niệm 1 năm (13/11/2022),<br />
                       </span>
+                    </SlideUpReveal>
+                    <SlideUpReveal>
                       <span className="font-semibold text-[22px] lg:text-[24px]">
                         rồi thì 2 năm (13/11/2023) cứ thế trôi đi...<br />
                       </span>
+                    </SlideUpReveal>
+                    <SlideUpReveal>
                       <span className="text-balance break-words text-justify">
                         có biết bao nhiêu kỉ niệm buồn vui, những khoảnh khắc được bên nhau làm sao tớ có thể quên được. <span className="font-semibold text-[22px]">Những món quà, những khoảng thời gian, giây phút hạnh phúc ấy</span> bên cậu tớ vẫn luôn nhớ mãi. Cậu vẫn luôn là người mà tớ yêu thương nhất, là cả tri âm lẫn tri kỉ, luôn chia sẻ và lắng nghe câu chuyện của tớ. Có thể nói, trong số những người tớ nói chuyện, thì cậu đặc biệt hơn thảy, cậu lắng nghe và cảm thông cho những gì tớ phải trải qua, cậu cho tớ 1 cảm giác  thoải mái cho dù kể về gia đình mình. Hôm đấy tớ thấy cậu khóc sau khi nghe câu chuyện ấy là tớ biết, cậu chắc hẳn là định mệnh của đời tớ rồi. Tớ phải nắm bắt cơ hội vì với tớ, hạnh phúc chỉ đến có một lần. Tớ biết tớ không được hạnh phúc, nhưng từ khi yêu cậu, tớ biết là tớ phải có trách nhiệm với cậu, và tớ cũng cảm thấy cuộc sống này tươi đẹp hơn đến nhường nào. Cậu đến như một thiên thần vớt lấy mạng sống mong manh của tớ vậy, đến vào lúc mà tớ tuyệt vọng nhất, trầm cảm là một cái gì đó mà tại sao từ khi yêu cậu, nó như chưa từng tồn tại vậy? Cậu đem đến hy vọng sống, một ước mơ, một tương lai mà tớ có thể mong chờ, cậu giúp tớ có 1 nghị lực để tiếp tục sống tiếp… <br className=""/>
                         <div className="h-1 line-spacing"></div>
@@ -57,6 +64,7 @@ export const MyThoughts = () => {
                           <span className="font-semibold text-[22px]">Thế mà… thấm thoát đã 798 ngày trôi qua</span>, không ít những lần ta cãi nhau, không ít những quãng thời gian giận dỗi. Tình yêu có nhiều giai đoạn, từ làm quen, tìm hiểu, từ giai đoạn tiến tới tình yêu, rồi ngộ nhận, và giai đoạn sóng gió nhất cũng là quãng thời gian 2 ta cãi nhau, giận dỗi nhau nhiều nhất. Lúc ấy cũng chính là khi 2 ta nhìn ra những khuyết điểm của đối phương, và càng phải học cách chấp nhận, như vậy mối quan hệ mới bền lâu được. <span className="font-semibold text-[22px]">Tớ nghĩ đi nghĩ lại, tớ hối hận</span> với những lời nói đã nói với cậu, cậu không xứng đáng chịu phải những lời nói ấy, tớ là kẻ khốn nạn mới đúng, cũng chỉ vì yêu quá mà tớ kiểm soát, cấm đoán cậu, không cho cậu được là chính mình, được làm những thứ mình thích. Tớ hối hận lắm. Biết bao những tổn thương mà 2 ta đã gây ra cho nhau, những tổn thương những sự tuyệt vọng cậu gây ra cho tớ, những lần thất hứa, lỡ hẹn, hụt hẫng nhưng tớ vẫn chấp nhận tha thứ và bỏ qua. Tình yêu là thế đấy, là cả sự vị tha và lòng bao dung nữa… Ấy thế mà, không bằng 1 lần này khi cậu đã phải nói chia tay. Rất nhiều lần tớ có ý định và đã hành hạ bản thân, tớ cố tình tự cắt cổ tay mình, nhiều lần là trước mặt cậu. Nhưng hết lần này đến lần khác tớ hứa tớ không làm vậy nữa nhưng lại không kiềm chế được sự tiêu cực của bản thân, và càng không kiềm chế được cảm xúc nóng giận của mình. Người ta nói: “Nóng giận là bản năng, kiềm chế là bản lĩnh” kia mà… Có lẽ tớ chưa đủ bản lĩnh để kiềm chế cơn giận và cảm xúc của bản thân, nên tớ xứng đáng phải chịu những sự đau đớn, ân hận dày vò hết ngày này đến ngày khác. 798 ngày – 20/01/2024, vào tối hôm ấy, khi cậu và tớ vẫn đang bình thường, thì bỗng dưng vào lúc ấy, vào khoảnh khắc mà cả đời tớ nhớ mãi, câu tin nhắn “Em nghĩ là… \ Sao ạ? \ E nghĩ mình nên dừng lại”. <span className="font-semibold text-[22px]">Đau lắm có biết không? Cả thế giới của tớ như sụp đổ</span>, cảm giác như cả thế giới đã quay lưng lại với mình, lúc ấy bất giác sự tuyệt vọng, sự tiêu cực của tớ lại dâng trào, lại chạy vội ra ga tàu định nhảy thật. Nhưng nghĩ lại, tớ vẫn cầu xin cậu, vẫn mong muốn 1 lần được sáng tỏ mọi chuyện, nên đã chạy ra ngõ nhà cậu, đợi cậu từ 8h đến hơn 10 giờ để được gặp cậu. Nhưng lúc ấy, lúc nói chuyện với cậu, tớ nhận ra tớ đã mất tất cả rồi, không còn cảm giác được yêu thương ấy nữa. Vậy là chính thức, ta mất nhau. Lúc ấy, mọi thứ đến thật bất ngờ, tớ vẫn còn yêu thương, còn quan tâm vậy mà, cậu cũng chuẩn bị gặp tớ, chuẩn bị thực hiện kế hoạch đi chơi tối hôm ấy vậy mà…
                         </span>
                       </span>
+                    </SlideUpReveal>
                     </span>
 
                   <Fade>
@@ -76,7 +84,7 @@ export const MyThoughts = () => {
                     </div>
                   </Fade>
 
-                  <span className="main-content-paragraph my-thoughts-paragraph text-balance break-words text-justify">
+                    <span className="main-content-paragraph my-thoughts-paragraph text-balance break-words text-justify">
                       <span className="text-balance break-words text-justify">
                         <div className="h-1 line-spacing"></div>
                         <span className="mr-5 tab-spacing" />

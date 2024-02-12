@@ -3,15 +3,10 @@ import { Separator } from "../../ui/separator";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { Courgette } from "next/font/google";
-import { User } from "next-auth";
 
 import { GradientHeart } from "../../custom-icons";
 
 const font = Courgette({ weight: "400", subsets: ["latin"] });
-
-type LandingNavProps = {
-  user?: User;
-};
 
 export const LandingFooter = () => {
   return (
