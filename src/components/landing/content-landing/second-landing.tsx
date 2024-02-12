@@ -15,7 +15,7 @@ const font = Open_Sans({ weight: "700", subsets: ["vietnamese"] });
 export const SecondLanding = () => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
-  const images = ["/1.png", "/2.png", "/3.png"]; // Add all your image paths here
+  const images = ["/1.png", "/d2.png", "/3.png"]; // Add all your image paths here
   
   return (
     <div className="grid grid-cols-4 lg:grid-cols-5 text-black max-w-lg md:max-w-3xl lg:max-w-5xl m-auto text-left">
@@ -65,7 +65,7 @@ export const SecondLanding = () => {
                     <ClickToSee />
                     <div className="grid grid-cols-2 grid-row-2 my-5 gap-3">
                       <Image 
-                        src="/2.png"
+                        src="/d2.png"
                         width={247}
                         height={921}
                         alt="discord_left_panel_1"
