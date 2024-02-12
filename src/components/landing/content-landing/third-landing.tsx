@@ -50,7 +50,7 @@ export const ThirdLanding = () => {
             </SlideUpReveal>
 
               <SlideUpReveal>
-                <Info date="12 T2, 2024" time="11:47 AM" />
+                <Info date="12 T2, 2024" time="11:47" />
               </SlideUpReveal>
 
                 <div className="mt-3">

@@ -50,7 +50,7 @@ export const FirstLanding = () => {
             </SlideUpReveal>
 
               <SlideUpReveal>
-                <Info date="06 T2, 2024" time="21:28 PM" />
+                <Info date="06 T2, 2024" time="21:28" />
               </SlideUpReveal>
 
                 <div className="mt-3">

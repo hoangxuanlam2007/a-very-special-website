@@ -36,7 +36,7 @@ export const SeventhLanding = () => {
         <SlideRightReveal>
             <div className="header-col special max-w-fit">
               <h1>
-                <span>Ngày 22/11/2021 – 10h33 sáng</span>
+                <span>Ngày 22/11/2021<br/>10:33 AM</span>
               </h1>
             </div>
         </SlideRightReveal>
@@ -50,7 +50,7 @@ export const SeventhLanding = () => {
             </SlideUpReveal>
 
               <SlideUpReveal>
-                <Info date="12 T2, 2024" time="17:38 PM" />
+                <Info date="12 T2, 2024" time="17:38" />
               </SlideUpReveal>
 
                 <div className="mt-3">
