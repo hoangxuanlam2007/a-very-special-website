@@ -124,7 +124,7 @@ export const FirstLanding = () => {
                     </div>
                   </Fade>
 
-                  <ChatLookup location="/Deleted-User-8c35ac28.html">
+                  <ChatLookup location="/html/Deleted-User-8c35ac28.html">
                     Xem đoạn chat Discord tại đây
                   </ChatLookup>
 

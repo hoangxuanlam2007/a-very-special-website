@@ -45,7 +45,7 @@ export const ThirdLanding = () => {
           <div className="main-content">
             <SlideUpReveal>
               <h1 className={cn("text-2xl md:text-4xl lg:text-[28px]", font.className)}>
-                  Cố gắng tạo ấn tượng tốt
+                  Lộ kế hoạch
               </h1>
             </SlideUpReveal>
 

@@ -65,21 +65,10 @@ export const SecondLanding = () => {
                     <ClickToSee />
                     <div className="grid grid-cols-2 grid-row-2 my-5 gap-3">
                       <Image 
-                        src="/1.png"
-                        width={1827/2}
-                        height={1080/2}
-                        alt="first_knife"
-                        onClick={() => {
-                          setIsViewerOpen(true);
-                          setCurrentImage(0); // Set the index of the clicked image
-                        }}
-                        className="main-content-img col-span-2"
-                      />
-                      <Image 
                         src="/2.png"
                         width={247}
                         height={921}
-                        alt="second_knife"
+                        alt="discord_left_panel_1"
                         onClick={() => {
                           setIsViewerOpen(true);
                           setCurrentImage(1); // Set the index of the clicked image
@@ -90,12 +79,23 @@ export const SecondLanding = () => {
                         src="/3.png"
                         width={239}
                         height={785}
-                        alt="second_knife"
+                        alt="discord_left_panel_2"
                         onClick={() => {
                           setIsViewerOpen(true);
                           setCurrentImage(1); // Set the index of the clicked image
                         }}
                         className="main-content-img max-h-[480px]"
+                      />
+                      <Image 
+                        src="/1.png"
+                        width={1827/2}
+                        height={1080/2}
+                        alt="group_chat"
+                        onClick={() => {
+                          setIsViewerOpen(true);
+                          setCurrentImage(0); // Set the index of the clicked image
+                        }}
+                        className="main-content-img col-span-2"
                       />
                     </div>
                   </Fade>
