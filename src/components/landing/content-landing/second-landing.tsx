@@ -82,7 +82,7 @@ export const SecondLanding = () => {
                         alt="discord_left_panel_2"
                         onClick={() => {
                           setIsViewerOpen(true);
-                          setCurrentImage(1); // Set the index of the clicked image
+                          setCurrentImage(2); // Set the index of the clicked image
                         }}
                         className="main-content-img max-h-[480px]"
                       />

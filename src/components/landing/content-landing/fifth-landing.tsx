@@ -15,7 +15,7 @@ const font = Open_Sans({ weight: "700", subsets: ["vietnamese"] });
 export const FifthLanding = () => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
-  const images = ["/3a.png", "/inv_1.png", "/inv_2.png"]; // Add all your image paths here
+  const images = ["/5.png", "/5a.png"]; // Add all your image paths here
   
   return (
     <div className="grid grid-cols-4 lg:grid-cols-5 text-black max-w-lg md:max-w-3xl lg:max-w-5xl m-auto text-left">
@@ -56,32 +56,45 @@ export const FifthLanding = () => {
                 <div className="mt-3">
                   <SlideUpReveal>
                     <span className="main-content-paragraph">
-                      <li>Vậy là cậu đã biết sự thật rồi, sau khi nghe Đăng kể, cậu bắt đầu tra hỏi tớ, thắc mắc và đặt ra rất nhiều nghi vấn, liệu có phải tớ thích cậu không?</li>
-                      <li>Cậu bắt đầu tỏ ra quan tâm tớ hơn, muốn biết suy nghĩ của tớ, tỏ ra gần gũi với tớ hơn, lại còn xưng “chị-em” cơ chứ, chắc cậu phải lòng tớ rồi, không phải do gửi ảnh mèo nhiều đâu ha.</li>
+                      <li>Sau một đêm khó ngủ, trằn trọc suy nghĩ, vậy là đã tới sáng hôm sau, người đầu tiên nhắn cũng là tớ.</li>
                     </span>
                   </SlideUpReveal>
 
                   <Fade>
                     <ClickToSee />
-                    <div className="my-5 gap-x-3">
+                    <div className="grid grid-cols-2 grid-row-2 my-5 gap-3">
                       <Image 
-                        src="/3a.png"
+                        src="/5.png"
                         width={606}
                         height={921}
-                        alt="discord_group_chat"
+                        alt="staff_chat_5"
                         onClick={() => {
                           setIsViewerOpen(true);
                           setCurrentImage(0); // Set the index of the clicked image
                         }}
-                        className="main-content-img max-h-[480px] !object-contain !w-max mx-auto"
+                        className="main-content-img max-h-[480px]"
+                      />
+                      <Image 
+                        src="/5a.png"
+                        width={606}
+                        height={921}
+                        alt="staff_chat_6"
+                        onClick={() => {
+                          setIsViewerOpen(true);
+                          setCurrentImage(1); // Set the index of the clicked image
+                        }}
+                        className="main-content-img max-h-[480px]"
                       />
                     </div>
                   </Fade>
 
+                  <ChatLookup location="/html/Lói-không-ngừng-staff-chat-2.html">
+                    Xem phần cắt của đoạn chat &ldquo;◜STAFF◞ |╭-𝐜𝐡𝐚𝐭&rdquo; tại đây
+                  </ChatLookup>
+
                   <SlideUpReveal>
                     <span className="main-content-paragraph">
-                      <li>Thực ra tớ có mấy con lận, nhưng vì không nhớ hôm trước dùng con nào nên bốc tạm 2 con này rồi tốn thêm 90k để đổi tên chụp cho cậu xem, vẫn ngại, vẫn chưa dám bày tỏ cảm xúc.</li>
-                      <li>Tối hôm ấy tớ bảo chúng ta cùng ngủ, để rồi sáng mai sẽ nói thật mọi chuyện. Công nhận tối hôm ấy, cái cảm giác ấy, như một tình yêu nhen nhóm trong lòng rồi, có lẽ cả hai đều đã biết nhưng chẳng qua chỉ là chưa dám bày tỏ thôi.</li>
+                      <li>Sau đó tớ tạo 1 kênh chat mới, những tin nhắn vòng vo ấy cậu còn nhớ không…?</li>
                     </span>
                   </SlideUpReveal>
 

@@ -95,7 +95,7 @@ export const FourthLanding = () => {
                         alt="inv_1"
                         onClick={() => {
                           setIsViewerOpen(true);
-                          setCurrentImage(0); // Set the index of the clicked image
+                          setCurrentImage(1); // Set the index of the clicked image
                         }}
                         className="main-content-img max-h-[480px]"
                       />
@@ -106,7 +106,7 @@ export const FourthLanding = () => {
                         alt="inv_2"
                         onClick={() => {
                           setIsViewerOpen(true);
-                          setCurrentImage(0); // Set the index of the clicked image
+                          setCurrentImage(2); // Set the index of the clicked image
                         }}
                         className="main-content-img max-h-[480px]"
                       />
@@ -114,7 +114,7 @@ export const FourthLanding = () => {
                   </Fade>
 
                   <ChatLookup location="/html/Lói-không-ngừng-staff-chat.html">
-                    Xem đoạn chat Discord tại đây
+                    Xem toàn bộ đoạn chat &ldquo;◜STAFF◞ |╭-𝐜𝐡𝐚𝐭&rdquo; tại đây
                   </ChatLookup>
 
                   <ParagraphDivider />

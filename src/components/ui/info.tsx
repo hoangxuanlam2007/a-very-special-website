@@ -33,7 +33,7 @@ const ClickToSee = () => {
     return(
         <Fade>
             <p className="text-center italic mt-2">
-                • Nhấn vào ảnh để xem •
+                • Nhấn vào ảnh để xem full •
             </p>
         </Fade>
     );
@@ -49,7 +49,7 @@ const ChatLookup = ({ location, children }: { location: string, children: React.
                 <Button
                     onClick={() => {window.open(location, "_blank")}}
                     variant={'chatlookup'}
-                    className="mt-2 rounded-sm border-none bg-primary tracking-wider text-white hover:bg-[#4a2b7c] hover:text-white p-5 mx-auto"
+                    className="mb-2 rounded-sm border-none bg-primary tracking-wider text-white hover:bg-[#4a2b7c] hover:text-white p-5 mx-auto"
                 >
                     {children}
                 </Button>
