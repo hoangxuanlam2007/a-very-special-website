@@ -12,7 +12,7 @@ import { ParagraphDivider } from "@/components/ui/separator";
 
 const font = Open_Sans({ weight: "700", subsets: ["vietnamese"] });
 
-export const SecondLanding = () => {
+export const ThirdLanding = () => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
   const images = ["/1.png", "/2.png", "/3.png"]; // Add all your image paths here

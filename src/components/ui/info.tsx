@@ -1,6 +1,9 @@
 "use client"
 
 import * as React from "react";
+import { Button } from "@/components/ui/button";
+import { Fade, Slide } from "react-swift-reveal";
+import { SlideUpReveal } from "./animation";
 
 interface InfoProps {
     date: string;
@@ -28,17 +31,30 @@ const Info: React.FC<InfoProps> = ({ date, time }) => {
 
 const ClickToSee = () => {
     return(
-        <p className="text-center italic">
-            • Nhấn vào ảnh để xem •
-        </p>
+        <Fade>
+            <p className="text-center italic mt-2">
+                • Nhấn vào ảnh để xem •
+            </p>
+        </Fade>
     );
 };
 
-const ChatLookup = ({ location }: { location: string }) => {
+const ChatLookup = ({ location, children }: { location: string, children: React.ReactNode }) => {
     return (
-        <div className="max-w-fit text-amber-500 mx-auto text-base underline font-bold cursor-pointer" onClick={() => window.open(location, "_blank")}>
-        Xem đoạn chat tại đây
-        </div>
+        // <div className="max-w-fit text-amber-500 mx-auto text-base underline font-bold cursor-pointer" onClick={() => window.open(location, "_blank")}>
+        // Xem đoạn chat tại đây
+        // </div>
+        <SlideUpReveal>
+            <div className="max-w-fit flex justify-center items-center mx-auto">
+                <Button
+                    onClick={() => {window.open(location, "_blank")}}
+                    variant={'chatlookup'}
+                    className="mt-2 rounded-sm border-none bg-primary tracking-wider text-white hover:bg-[#4a2b7c] hover:text-white p-5 mx-auto"
+                >
+                    {children}
+                </Button>
+            </div>
+        </SlideUpReveal>
     );
 };
 
