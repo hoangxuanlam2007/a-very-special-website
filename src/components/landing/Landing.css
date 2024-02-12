@@ -18,6 +18,19 @@
     margin-bottom: 48px;
 }
 
+.header-col.special>h1 {
+    text-transform: uppercase;
+    border-bottom: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, rgb(201, 42, 193) 0%, rgb(255, 82, 177) 100%);
+    padding-bottom: 6px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 9px;
+    margin-bottom: 48px;
+}
+
 .main-content>h1 {
     font-size: 32px;
     font-weight: 700;

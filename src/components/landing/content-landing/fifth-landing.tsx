@@ -12,7 +12,7 @@ import { ParagraphDivider } from "@/components/ui/separator";
 
 const font = Open_Sans({ weight: "700", subsets: ["vietnamese"] });
 
-export const FourthLanding = () => {
+export const FifthLanding = () => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
   const images = ["/3a.png", "/inv_1.png", "/inv_2.png"]; // Add all your image paths here
@@ -34,9 +34,9 @@ export const FourthLanding = () => {
       )}
 
         <SlideRightReveal>
-            <div className="header-col max-w-fit">
+            <div className="header-col special max-w-fit">
               <h1>
-                <span>Ngày 12/11/2021</span>
+                <span>Ngày 13/11/2021</span>
               </h1>
             </div>
         </SlideRightReveal>
@@ -45,12 +45,12 @@ export const FourthLanding = () => {
           <div className="main-content">
             <SlideUpReveal>
               <h1 className={cn("text-2xl md:text-4xl lg:text-[28px]", font.className)}>
-                  Tớ đã thành công!
+                  Tớ đã thành công
               </h1>
             </SlideUpReveal>
 
               <SlideUpReveal>
-                <Info date="12 T2, 2024" time="13:41 PM" />
+                <Info date="06 T2, 2024" time="21:28 PM" />
               </SlideUpReveal>
 
                 <div className="mt-3">
