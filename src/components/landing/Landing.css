@@ -55,6 +55,12 @@
 
 .main-content-paragraph {
     list-style-type: "- ";
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.my-thoughts-paragraph {
+    text-align: justify;
 }
 
 .click-to-see:hover + .main-content-img {

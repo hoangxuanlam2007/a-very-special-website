@@ -32,7 +32,7 @@ const Info: React.FC<InfoProps> = ({ date, time }) => {
 const ClickToSee = () => {
     return(
         <Fade>
-            <p className="text-center italic mt-2">
+            <p className="text-center italic mt-2 text-[16px]">
                 • Nhấn vào ảnh để xem full •
             </p>
         </Fade>
